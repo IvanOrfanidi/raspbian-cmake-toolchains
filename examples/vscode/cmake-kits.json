@@ -1,0 +1,6 @@
+[
+    {
+        "name": "GCC RASPBIAN",
+        "toolchainFile": "raspbian-cmake-toolchains/raspbian-toolchain.cmake"
+    }
+]
