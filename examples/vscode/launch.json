@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "gdb",
+            "request": "attach", // Вид запуска
+            "name": "Attach to gdbserver",
+            // Путиь к gdb отладчику из пакета нативного компилятору GCC
+            "gdbpath": "/home/orfanidi/raspi/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gdb",
+            "executable": "./build/main", // Путь к исполняемому файлу
+            "target": "192.168.109.5:4444", // IP адрес и порт удаленного устройства
+            "remote": true,
+            "cwd": "${workspaceRoot}",
+            "valuesFormatting": "parseText"
+        }
+    ]
+}
