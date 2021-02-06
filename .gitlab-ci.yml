@@ -4,4 +4,4 @@ build:
   after_script:
   - cd /media/storage/gitlab/
   - sudo rm -rf raspbian-cmake-toolchains
-  - git clone http://192.168.109.15/root/raspbian-cmake-toolchains.git
+  - git clone http://git.home.lan/root/raspbian-cmake-toolchains.git
